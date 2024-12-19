@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all -p start:backend start:frontend",
     "start:backend": "cd tabarnak-be && pnpm start",
-    "start:frontend": "cd tabarnak-fe && npm start",
+    "start:frontend": "cd tabarnak-mobile && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
