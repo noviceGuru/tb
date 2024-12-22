@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all -p start:backend start:frontend",
+    "start": "npm-run-all -p start:backend start:mobile start:desktop",
     "start:backend": "cd tabarnak-be && pnpm start",
-    "start:frontend": "cd tabarnak-mobile && npm start",
+    "start:mobile": "cd tabarnak-mobile && npm start",
+    "start:desktop": "cd tabarnak-desktop && pnpm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
